@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @next/next/no-img-element */
 "use client";
@@ -45,9 +46,9 @@ export default function Home() {
   const [hovered, setHovered] = useState<Skill | null>(null);
   const [cursor, setCursor] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
-  const MIN_SCALE = 0.10;
+  const MIN_SCALE = 0.1;
   const MAX_SCALE = 2.5;
-  const ZOOM_STEP = 0.10;
+  const ZOOM_STEP = 0.1;
 
   useEffect(() => {
     fetch("/talent-tree-config.json")
@@ -256,6 +257,15 @@ export default function Home() {
         }`}
       >
         <div
+          className="
+            absolute inset-0 pointer-events-none opacity-[0.06]
+            bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),
+            linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)]
+            bg-[length:120px_120px,120px_120px]
+          "
+        />
+
+        <div
           className="absolute left-0 top-0"
           style={{
             transform: `translate(${pan.x}px, ${pan.y}px) scale(${scale})`,
@@ -263,15 +273,6 @@ export default function Home() {
             transition: isPanning ? "none" : "transform 40ms ease-out",
           }}
         >
-          <div
-            className="
-              absolute inset-0 pointer-events-none opacity-[0.06]
-              bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),
-              linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)]
-              bg-[length:120px_120px,120px_120px]
-            "
-          />
-
           <svg
             className="absolute left-0 top-0 pointer-events-none"
             width="10000"
