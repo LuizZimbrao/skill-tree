@@ -29,6 +29,7 @@ type Connection = {
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const touchRef = useRef<any>(null);
 
   const [skills, setSkills] = useState<Skill[]>([]);
   const [connections, setConnections] = useState<
@@ -38,15 +39,15 @@ export default function Home() {
   const [scale, setScale] = useState<number>(0.4);
   const [pan, setPan] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
   const [isPanning, setIsPanning] = useState(false);
-  const lastMouseRef = useRef<{ x: number; y: number } | null>(null);
-  const [hovered, setHovered] = useState<Skill | null>(null);
-  const [cursor, setCursor] = useState<{ x: number; y: number }>({
-    x: 0,
-    y: 0,
-  });
 
-  const MIN_SCALE = 0.1;
+  const lastMouseRef = useRef<{ x: number; y: number } | null>(null);
+
+  const [hovered, setHovered] = useState<Skill | null>(null);
+  const [cursor, setCursor] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+
+  const MIN_SCALE = 0.10;
   const MAX_SCALE = 2.5;
+  const ZOOM_STEP = 0.10;
 
   useEffect(() => {
     fetch("/talent-tree-config.json")
@@ -61,7 +62,6 @@ export default function Home() {
           .map((c) => {
             const fromSkill = skillList.find((s) => s.id === c.from);
             const toSkill = skillList.find((s) => s.id === c.to);
-
             if (!fromSkill || !toSkill) return null;
 
             return {
@@ -74,8 +74,7 @@ export default function Home() {
           .filter(Boolean) as any[];
 
         setConnections(built);
-      })
-      .catch(() => {});
+      });
   }, []);
 
   useEffect(() => {
@@ -98,7 +97,7 @@ export default function Home() {
       x: screenCenterX - contentCenterX * scale,
       y: screenCenterY - contentCenterY * scale,
     });
-  }, [skills, scale]);
+  }, [skills]);
 
   function onWheel(e: React.WheelEvent) {
     e.preventDefault();
@@ -109,20 +108,17 @@ export default function Home() {
     const mouseX = e.clientX - rect.left;
     const mouseY = e.clientY - rect.top;
 
-    const delta = -e.deltaY;
-    const zoomIntensity = 0.0018;
-    const zoom = Math.exp(delta * zoomIntensity);
+    const zoomDir = e.deltaY > 0 ? 1 - ZOOM_STEP : 1 + ZOOM_STEP;
+    const newScaleUnclamped = scale * zoomDir;
+    const newScale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, newScaleUnclamped));
 
-    const newScaleUnclamped = scale * zoom;
-    const newScale = Math.max(
-      MIN_SCALE,
-      Math.min(MAX_SCALE, newScaleUnclamped)
-    );
+    const worldX = (mouseX - pan.x) / scale;
+    const worldY = (mouseY - pan.y) / scale;
 
-    const sx = (mouseX - pan.x) * (newScale / scale - 1);
-    const sy = (mouseY - pan.y) * (newScale / scale - 1);
-
-    setPan((p) => ({ x: p.x - sx, y: p.y - sy }));
+    setPan({
+      x: mouseX - worldX * newScale,
+      y: mouseY - worldY * newScale,
+    });
     setScale(newScale);
   }
 
@@ -132,23 +128,104 @@ export default function Home() {
     lastMouseRef.current = { x: e.clientX, y: e.clientY };
     document.body.classList.add("no-select");
   }
+
   function onMouseUp() {
     setIsPanning(false);
     lastMouseRef.current = null;
     document.body.classList.remove("no-select");
   }
+
   function onMouseMove(e: React.MouseEvent) {
     setCursor({ x: e.clientX, y: e.clientY });
     if (!isPanning || !lastMouseRef.current) return;
+
     const dx = e.clientX - lastMouseRef.current.x;
     const dy = e.clientY - lastMouseRef.current.y;
     lastMouseRef.current = { x: e.clientX, y: e.clientY };
+
     setPan((p) => ({ x: p.x + dx, y: p.y + dy }));
   }
 
-  function onDoubleClick() {
-    setScale(0.8);
-    setPan({ x: -400, y: -200 });
+  function onDoubleClick(e: React.MouseEvent) {
+    const rect = containerRef.current!.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const clickY = e.clientY - rect.top;
+
+    const targetScale = Math.min(MAX_SCALE, scale * 1.3);
+
+    const worldX = (clickX - pan.x) / scale;
+    const worldY = (clickY - pan.y) / scale;
+
+    setPan({
+      x: clickX - worldX * targetScale,
+      y: clickY - worldY * targetScale,
+    });
+    setScale(targetScale);
+  }
+
+  function distance(a: any, b: any) {
+    return Math.sqrt((a.x - b.x) ** 2 + (a.y - b.y) ** 2);
+  }
+
+  function onTouchStart(e: React.TouchEvent) {
+    if (e.touches.length === 1) {
+      touchRef.current = {
+        mode: "pan",
+        lastX: e.touches[0].clientX,
+        lastY: e.touches[0].clientY,
+      };
+    } else if (e.touches.length === 2) {
+      const p1 = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      const p2 = { x: e.touches[1].clientX, y: e.touches[1].clientY };
+
+      touchRef.current = {
+        mode: "pinch",
+        startDist: distance(p1, p2),
+        startScale: scale,
+        center: { x: (p1.x + p2.x) / 2, y: (p1.y + p2.y) / 2 },
+      };
+    }
+  }
+
+  function onTouchMove(e: React.TouchEvent) {
+    if (!touchRef.current) return;
+
+    if (touchRef.current.mode === "pan" && e.touches.length === 1) {
+      const dx = e.touches[0].clientX - touchRef.current.lastX;
+      const dy = e.touches[0].clientY - touchRef.current.lastY;
+
+      touchRef.current.lastX = e.touches[0].clientX;
+      touchRef.current.lastY = e.touches[0].clientY;
+
+      setPan((p) => ({ x: p.x + dx, y: p.y + dy }));
+    }
+
+    if (touchRef.current.mode === "pinch" && e.touches.length === 2) {
+      const p1 = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      const p2 = { x: e.touches[1].clientX, y: e.touches[1].clientY };
+
+      const newDist = distance(p1, p2);
+      const ratio = newDist / touchRef.current.startDist;
+
+      const newScale = Math.max(
+        MIN_SCALE,
+        Math.min(MAX_SCALE, touchRef.current.startScale * ratio)
+      );
+
+      const worldX = (touchRef.current.center.x - pan.x) / scale;
+      const worldY = (touchRef.current.center.y - pan.y) / scale;
+
+      setPan({
+        x: touchRef.current.center.x - worldX * newScale,
+        y: touchRef.current.center.y - worldY * newScale,
+      });
+
+      setScale(newScale);
+    }
+  }
+
+  function onTouchEnd() {
+    touchRef.current = null;
   }
 
   return (
@@ -171,6 +248,9 @@ export default function Home() {
         onMouseLeave={onMouseUp}
         onMouseMove={onMouseMove}
         onDoubleClick={onDoubleClick}
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
         className={`w-full h-full relative select-none ${
           isPanning ? "cursor-grabbing" : "cursor-grab"
         }`}
@@ -180,7 +260,7 @@ export default function Home() {
           style={{
             transform: `translate(${pan.x}px, ${pan.y}px) scale(${scale})`,
             transformOrigin: "0 0",
-            transition: isPanning ? "none" : "transform 60ms linear",
+            transition: isPanning ? "none" : "transform 40ms ease-out",
           }}
         >
           <div
