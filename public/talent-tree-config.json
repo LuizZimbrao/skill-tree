@@ -1,0 +1,4709 @@
+{
+  "Skills": [
+    {
+      "Skill Name": "Dano Magico",
+      "Skill Position": "(11,-16)",
+      "Skill Position Exact": {
+        "x": 1266,
+        "y": -1992
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 1d10+1 de dano magico",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-rock.png",
+      "Skill Dependencies": [
+        "Dano Magico "
+      ],
+      "Skill Prerequisite": "Dano Magico (2)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "3",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Dano Magico",
+      "Skill Position": "(11,-14)",
+      "Skill Position Exact": {
+        "x": 1266,
+        "y": -1752
+      },
+      "Skill Level": 2,
+      "Skill Description": "Aplica 1d8+1 de dano magico, podendo escolher entre ataque em área ou alvo único (Área 3x3).",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-rock.png",
+      "Skill Dependencies": [
+        "Dano Magico"
+      ],
+      "Skill Prerequisite": "Dano Magico (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "2",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Aparo",
+      "Skill Position": "(20,-12)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Aparo simples\nPode tentar aparar um ataque\nCooldown: 2 turnos",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/skull-blue.png",
+      "Skill Dependencies": [
+        "Aparo Superior"
+      ],
+      "Skill Prerequisite": "Tank (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Dano Magico",
+      "Skill Position": "(11,-12)",
+      "Skill Position Exact": {
+        "x": 1266,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Aplica 1d6+1 de dano magico",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-rock.png",
+      "Skill Dependencies": [
+        "Dano Magico"
+      ],
+      "Skill Prerequisite": "Ataque (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Tank",
+      "Skill Position": "(21,-10)",
+      "Skill Position Exact": {
+        "x": 2466,
+        "y": -1272
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar recebe +3 de defesa a qualquer dano",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/skull-blue.png",
+      "Skill Dependencies": [
+        "Aparo",
+        "Provocar"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades ativas (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque",
+      "Skill Position": "(13,-10)",
+      "Skill Position Exact": {
+        "x": 1505,
+        "y": -1272
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar agora pode realizar um ataque por turno (dano 1d4)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/axe-hammer-grey.png",
+      "Skill Dependencies": [
+        "Ataque Corpo a corpo",
+        "Dano Magico",
+        "Ataque a Distancia",
+        "Ataque sincronizado"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades ativas (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Suporte",
+      "Skill Position": "(29,-10)",
+      "Skill Position Exact": {
+        "x": 3426,
+        "y": -1272
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 1d4)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/golden-arrow.png",
+      "Skill Dependencies": [
+        "Cura ",
+        "Regeneração"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades ativas (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque a Distancia",
+      "Skill Position": "(15,-16)",
+      "Skill Position Exact": {
+        "x": 1746,
+        "y": -1992
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 1d10+1 de dano fisico, com +3 de penetração",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-spear.png",
+      "Skill Dependencies": [
+        "Ataque a Distancia "
+      ],
+      "Skill Prerequisite": "Ataque a Distancia (2)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "3",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque a Distancia",
+      "Skill Position": "(15,-14)",
+      "Skill Position Exact": {
+        "x": 1746,
+        "y": -1752
+      },
+      "Skill Level": 2,
+      "Skill Description": "Aplica 1d8+1 de dano fisico, com +3 de penetração",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-spear.png",
+      "Skill Dependencies": [
+        "Ataque a Distancia"
+      ],
+      "Skill Prerequisite": "Ataque a Distancia (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "2",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque a Distancia",
+      "Skill Position": "(15,-12)",
+      "Skill Position Exact": {
+        "x": 1746,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Aplica 1d6+1 de dano fisico, com +2 de penetração",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-spear.png",
+      "Skill Dependencies": [
+        "Ataque a Distancia"
+      ],
+      "Skill Prerequisite": "Ataque (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque Corpo a corpo",
+      "Skill Position": "(13,-16)",
+      "Skill Position Exact": {
+        "x": 1506,
+        "y": -1992
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 1d10+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/axe-hammer-grey.png",
+      "Skill Dependencies": [
+        "Ataque Corpo a corpo "
+      ],
+      "Skill Prerequisite": "Ataque Corpo a corpo (2)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "3",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque Corpo a corpo",
+      "Skill Position": "(13,-14)",
+      "Skill Position Exact": {
+        "x": 1506,
+        "y": -1752
+      },
+      "Skill Level": 2,
+      "Skill Description": "Aplica 1d8+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/axe-hammer-grey.png",
+      "Skill Dependencies": [
+        "Ataque Corpo a corpo"
+      ],
+      "Skill Prerequisite": "Ataque Corpo a corpo (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "2",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque Corpo a corpo",
+      "Skill Position": "(13,-12)",
+      "Skill Position Exact": {
+        "x": 1506,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Aplica 1d6+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/axe-hammer-grey.png",
+      "Skill Dependencies": [
+        "Ataque Corpo a corpo"
+      ],
+      "Skill Prerequisite": "Ataque (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Provocar",
+      "Skill Position": "(22,-12)",
+      "Skill Position Exact": {
+        "x": 2586,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Desbloqueia a habilidade Provocar:\n\nPode tentar provocar um alvo\nDificuldade: (11 + NIvel do familiar) - (Força de vontade do alvo/2) \nCooldown: 2 turnos",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-orb.png",
+      "Skill Dependencies": [
+        "Provocar em Área"
+      ],
+      "Skill Prerequisite": "Tank (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Dano Magico ",
+      "Skill Position": "(11,-18)",
+      "Skill Position Exact": {
+        "x": 1266,
+        "y": -2232
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 2d6+1 de dano magico",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-rock.png",
+      "Skill Dependencies": [
+        "Dano Magico  "
+      ],
+      "Skill Prerequisite": "Dano Magico (3)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "4",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque a Distancia ",
+      "Skill Position": "(15,-18)",
+      "Skill Position Exact": {
+        "x": 1746,
+        "y": -2232
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 2d6+1 de dano fisico, com +3 de penetração",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-spear.png",
+      "Skill Dependencies": [
+        "Ataque a Distancia  "
+      ],
+      "Skill Prerequisite": "Ataque a Distancia (3)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "4",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque Corpo a corpo ",
+      "Skill Position": "(13,-18)",
+      "Skill Position Exact": {
+        "x": 1506,
+        "y": -2232
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 2d6+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/axe-hammer-grey.png",
+      "Skill Dependencies": [
+        "Ataque Corpo a corpo  "
+      ],
+      "Skill Prerequisite": "Ataque Corpo a corpo (3)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "4",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Dano Magico  ",
+      "Skill Position": "(11,-20)",
+      "Skill Position Exact": {
+        "x": 1266,
+        "y": -2472
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 2d8+1 de dano magico",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-rock.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Dano Magico  (3)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "5",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque a Distancia  ",
+      "Skill Position": "(15,-20)",
+      "Skill Position Exact": {
+        "x": 1746,
+        "y": -2472
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 2d8+1 de dano fisico, com +3 de penetração",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Ataque a Distancia  (3)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "5",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque Corpo a corpo  ",
+      "Skill Position": "(13,-20)",
+      "Skill Position Exact": {
+        "x": 1506,
+        "y": -2472
+      },
+      "Skill Level": 3,
+      "Skill Description": "Aplica 2d8+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/axe-hammer-grey.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Ataque Corpo a corpo  (3)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "5",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Árvore de habilidades ativas",
+      "Skill Position": "(21,-4)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": -552
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar começa daqui com apenas 10 pontos de vida.",
+      "Skill Max Points": 0,
+      "Skill Current Points": 0,
+      "Skill Image": "",
+      "Skill Dependencies": [
+        "Ataque",
+        "Tank",
+        "Suporte"
+      ],
+      "Skill Prerequisite": "-",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Ataque sincronizado",
+      "Skill Position": "(10,-11)",
+      "Skill Position Exact": {
+        "x": 1145,
+        "y": -1392
+      },
+      "Skill Level": 1,
+      "Skill Description": "Enquanto o seu familiar estiver vivo, pode escolher usar seus ataques em sincronia. Aplicando o dano do familiar ao seu dano final.\nGasta a ação do familiar",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/water-sword.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Ataque (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Provocar Espinhoso",
+      "Skill Position": "(22,-18)",
+      "Skill Position Exact": {
+        "x": 2586,
+        "y": -2232
+      },
+      "Skill Level": 1,
+      "Skill Description": "Sempre que um alvo provocado, realizar um ataque no familiar, o alvo que o atacou recebe 50% do dano de volta.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-orb.png",
+      "Skill Dependencies": [
+        "Provocar Supremo"
+      ],
+      "Skill Prerequisite": "Provocar Superior (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Provocar em Área",
+      "Skill Position": "(22,-14)",
+      "Skill Position Exact": {
+        "x": 2586,
+        "y": -1752
+      },
+      "Skill Level": 1,
+      "Skill Description": "Desbloqueia a habilidade Provocar em Área:\n\nPode tentar provocar varios alvos\nDificuldade: (9 + NIvel do familiar) - (Força de vontade do alvo/2) \nCooldown: 3 turnos",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-orb.png",
+      "Skill Dependencies": [
+        "Provocar Superior"
+      ],
+      "Skill Prerequisite": "Provocar (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Provocar Superior",
+      "Skill Position": "(22,-16)",
+      "Skill Position Exact": {
+        "x": 2586,
+        "y": -1992
+      },
+      "Skill Level": 1,
+      "Skill Description": "Melhoria da habilidade Provocar:\n\nFaz com que um alvo tenha que rolar novamente o teste, tendo assim uma segunda tentativa de provocalo.\nCooldown: 3 turnos",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-orb.png",
+      "Skill Dependencies": [
+        "Provocar Espinhoso"
+      ],
+      "Skill Prerequisite": "Provocar em Área (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Provocar Supremo",
+      "Skill Position": "(22,-20)",
+      "Skill Position Exact": {
+        "x": 2586,
+        "y": -2472
+      },
+      "Skill Level": 1,
+      "Skill Description": "Todo dano que um inimigo causar em um familiar, tera 20% convertido em vida para um aliado da sua escolha.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/fire-orb.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Provocar Espinhoso (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Aparo e Contra ataque",
+      "Skill Position": "(20,-16)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": -1992
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu aparo agora libera um contra ataque\nPode tentar aparar um ataque, Caso tenha sucesso no aparo, aplica 1d6+1 em quem realizou o ataque.\nCooldown: 1 turno",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/skull-blue.png",
+      "Skill Dependencies": [
+        "Aparo e Contra atque Melhorado"
+      ],
+      "Skill Prerequisite": "Aparo Superior (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Aparo e Contra atque Melhorado",
+      "Skill Position": "(20,-18)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": -2232
+      },
+      "Skill Level": 1,
+      "Skill Description": "Passa a ter 1 aparo por turno\nDano do aparo bem sucedido 1d8+1",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/skull-blue.png",
+      "Skill Dependencies": [
+        "Aparo Contra falhas"
+      ],
+      "Skill Prerequisite": "Aparo e Contra ataque (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Aparo Superior",
+      "Skill Position": "(20,-14)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": -1752
+      },
+      "Skill Level": 1,
+      "Skill Description": "Aparo simples\nPode tentar aparar um ataque\nCooldown: 1 turno",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/skull-blue.png",
+      "Skill Dependencies": [
+        "Aparo e Contra ataque"
+      ],
+      "Skill Prerequisite": "Aparo (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Aparo Contra falhas",
+      "Skill Position": "(20,-20)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": -2472
+      },
+      "Skill Level": 1,
+      "Skill Description": "Mesmo que falhe ao tentar aparar, aplica no aliado que ira receber o ataque +2 de redução de dano.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/skull-blue.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Aparo e Contra atque Melhorado (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Cura ",
+      "Skill Position": "(30,-12)",
+      "Skill Position Exact": {
+        "x": 3546,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 1d8+1)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/golden-arrow.png",
+      "Skill Dependencies": [
+        "Cura "
+      ],
+      "Skill Prerequisite": "Suporte (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Cura ",
+      "Skill Position": "(30,-14)",
+      "Skill Position Exact": {
+        "x": 3546,
+        "y": -1752
+      },
+      "Skill Level": 1,
+      "Skill Description": "Sua cura agora remove status negativos de sangramento e envenenamento",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/golden-arrow.png",
+      "Skill Dependencies": [
+        "Cura"
+      ],
+      "Skill Prerequisite": "Cura  (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Cura",
+      "Skill Position": "(30,-16)",
+      "Skill Position Exact": {
+        "x": 3546,
+        "y": -1992
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 1d10+1)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/golden-arrow.png",
+      "Skill Dependencies": [
+        "Cura"
+      ],
+      "Skill Prerequisite": "Cura  (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Cura",
+      "Skill Position": "(30,-18)",
+      "Skill Position Exact": {
+        "x": 3546,
+        "y": -2232
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 2d6+1)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/golden-arrow.png",
+      "Skill Dependencies": [
+        "Cura"
+      ],
+      "Skill Prerequisite": "Cura (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Cura",
+      "Skill Position": "(30,-20)",
+      "Skill Position Exact": {
+        "x": 3546,
+        "y": -2472
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 2d8+1)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/golden-arrow.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Cura (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Regeneração",
+      "Skill Position": "(28,-12)",
+      "Skill Position Exact": {
+        "x": 3306,
+        "y": -1512
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nRegeneração: +2 de regen de vida.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-staff.png",
+      "Skill Dependencies": [
+        "Reflexos sobre-humanos"
+      ],
+      "Skill Prerequisite": "Suporte (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Reflexos sobre-humanos",
+      "Skill Position": "(28,-14)",
+      "Skill Position Exact": {
+        "x": 3306,
+        "y": -1752
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nReflexos: +2 de AC e CA.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-staff.png",
+      "Skill Dependencies": [
+        "Ataque sobre-humano"
+      ],
+      "Skill Prerequisite": "Regeneração (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Ataque sobre-humano",
+      "Skill Position": "(28,-16)",
+      "Skill Position Exact": {
+        "x": 3306,
+        "y": -1992
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nAtaque: +(1d4+1) de dano.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-staff.png",
+      "Skill Dependencies": [
+        "Aprimoramento"
+      ],
+      "Skill Prerequisite": "Reflexos sobre-humanos (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Aprimoramento",
+      "Skill Position": "(28,-18)",
+      "Skill Position Exact": {
+        "x": 3306,
+        "y": -2232
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nAprimoramento: +2 de AC e CA e + 1 de regen de vida.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-staff.png",
+      "Skill Dependencies": [
+        "Força interior"
+      ],
+      "Skill Prerequisite": "Ataque sobre-humano (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Força interior",
+      "Skill Position": "(28,-20)",
+      "Skill Position Exact": {
+        "x": 3306,
+        "y": -2472
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nForça interior: +2 de redução de dano e 10% de vampirismo.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/flaming-staff.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Aprimoramento (1)",
+      "Skill Resources": [
+        {
+          "name": "Custo",
+          "value": "1",
+          "color": "#fff"
+        }
+      ]
+    },
+    {
+      "Skill Name": "Árvore de habilidades passivas",
+      "Skill Position": "(21,11)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar começa daqui com apenas: 1 de (AC, CA e Deslocamento)",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Esquiva",
+        "Comunicação",
+        "Acerto",
+        "Perito",
+        "Vida",
+        "Adaptação",
+        "Possessão",
+        "Deslocamento",
+        "Acerto"
+      ],
+      "Skill Prerequisite": "-",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Perito",
+      "Skill Position": "(20,10)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": 1128
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 pericia para o familiar",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Perito"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Acerto",
+      "Skill Position": "(21,9)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 1008
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de AC",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Acerto"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Comunicação",
+      "Skill Position": "(22,10)",
+      "Skill Position Exact": {
+        "x": 2585,
+        "y": 1128
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode falar comum e mais um idioma de sua escolha.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Comunicação"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Esquiva",
+      "Skill Position": "(23,11)",
+      "Skill Position Exact": {
+        "x": 2705,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de CA",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Esquiva"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Adaptação",
+      "Skill Position": "(22,12)",
+      "Skill Position Exact": {
+        "x": 2585,
+        "y": 1368
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar pode se adaptar em mais de um ambiente, podendo voar e respirar debaixo dagua.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Montaria"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Deslocamento",
+      "Skill Position": "(21,13)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 1488
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de deslocamento",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Deslocamento"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Possessão",
+      "Skill Position": "(20,12)",
+      "Skill Position Exact": {
+        "x": 2345,
+        "y": 1368
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar e você dividem o mesmo corpo\n\nO familiar não morre e não tem mais: [pontos de vida, CA, AC, deslocamento].\n\nO mestre do familiar não aproveita seus status passivos mas pode usar todas as habilidades que o familiar tiver da (Árvore de habilidades ativas) usando a ação do familiar.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Possessão"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Vida",
+      "Skill Position": "(19,11)",
+      "Skill Position Exact": {
+        "x": 2225,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+5 pontos de vida",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Vida"
+      ],
+      "Skill Prerequisite": "Árvore de habilidades passivas (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Acerto",
+      "Skill Position": "(21,7)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 768
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de AC",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Acerto"
+      ],
+      "Skill Prerequisite": "Acerto (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Acerto",
+      "Skill Position": "(21,5)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 528
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de AC",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Acerto"
+      ],
+      "Skill Prerequisite": "Acerto (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Perito",
+      "Skill Position": "(19,9)",
+      "Skill Position Exact": {
+        "x": 2225,
+        "y": 1008
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 pericia para o familiar",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Perito"
+      ],
+      "Skill Prerequisite": "Perito (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Perito",
+      "Skill Position": "(18,8)",
+      "Skill Position Exact": {
+        "x": 2105,
+        "y": 888
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 pericia para o familiar",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Perito"
+      ],
+      "Skill Prerequisite": "Perito (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Acerto",
+      "Skill Position": "(21,3)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 288
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de AC",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Acerto"
+      ],
+      "Skill Prerequisite": "Acerto (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Acerto",
+      "Skill Position": "(21,1)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 48
+      },
+      "Skill Level": 1,
+      "Skill Description": "+3 de AC",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Acerto (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Perito",
+      "Skill Position": "(17,7)",
+      "Skill Position Exact": {
+        "x": 1985,
+        "y": 768
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 pericia para o familiar",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Perito"
+      ],
+      "Skill Prerequisite": "Perito (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Perito",
+      "Skill Position": "(16,6)",
+      "Skill Position Exact": {
+        "x": 1865,
+        "y": 648
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 pericia para o familiar",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Perito (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Deslocamento",
+      "Skill Position": "(21,15)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 1728
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de deslocamento",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Deslocamento"
+      ],
+      "Skill Prerequisite": "Deslocamento (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Deslocamento",
+      "Skill Position": "(21,17)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 1968
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de deslocamento",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Deslocamento"
+      ],
+      "Skill Prerequisite": "Deslocamento (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Deslocamento",
+      "Skill Position": "(21,19)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 2208
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de deslocamento",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Deslocamento"
+      ],
+      "Skill Prerequisite": "Deslocamento (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Deslocamento",
+      "Skill Position": "(21,21)",
+      "Skill Position Exact": {
+        "x": 2465,
+        "y": 2448
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode teleportar até a distancia maxima usando movimentação",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Deslocamento (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Esquiva",
+      "Skill Position": "(25,11)",
+      "Skill Position Exact": {
+        "x": 2945,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de CA",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Esquiva"
+      ],
+      "Skill Prerequisite": "Esquiva (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Esquiva",
+      "Skill Position": "(27,11)",
+      "Skill Position Exact": {
+        "x": 3185,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de CA",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Esquiva"
+      ],
+      "Skill Prerequisite": "Esquiva (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Esquiva",
+      "Skill Position": "(29,11)",
+      "Skill Position Exact": {
+        "x": 3425,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+1 de CA",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Esquiva"
+      ],
+      "Skill Prerequisite": "Esquiva (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Esquiva",
+      "Skill Position": "(31,11)",
+      "Skill Position Exact": {
+        "x": 3665,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+3 de CA",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Esquiva (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Vida",
+      "Skill Position": "(17,11)",
+      "Skill Position Exact": {
+        "x": 1985,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+5 pontos de vida",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Vida"
+      ],
+      "Skill Prerequisite": "Vida (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Vida",
+      "Skill Position": "(15,11)",
+      "Skill Position Exact": {
+        "x": 1745,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+5 pontos de vida",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Vida"
+      ],
+      "Skill Prerequisite": "Vida (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Vida",
+      "Skill Position": "(13,11)",
+      "Skill Position Exact": {
+        "x": 1505,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+5 pontos de vida",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Vida "
+      ],
+      "Skill Prerequisite": "Vida (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Vida ",
+      "Skill Position": "(11,11)",
+      "Skill Position Exact": {
+        "x": 1265,
+        "y": 1248
+      },
+      "Skill Level": 1,
+      "Skill Description": "+10 de vida",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Vida (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Comunicação",
+      "Skill Position": "(23,9)",
+      "Skill Position Exact": {
+        "x": 2705,
+        "y": 1008
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode se comunicar com seu familiar mentalmente até 20 metros",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Comunicação"
+      ],
+      "Skill Prerequisite": "Comunicação (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Comunicação",
+      "Skill Position": "(24,8)",
+      "Skill Position Exact": {
+        "x": 2825,
+        "y": 888
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode se comunicar, ver, ouvir e sentir tudo o que seu familiar estiver sentindo até 50 metros",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Comunicação"
+      ],
+      "Skill Prerequisite": "Comunicação (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Comunicação",
+      "Skill Position": "(25,7)",
+      "Skill Position Exact": {
+        "x": 2945,
+        "y": 768
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode se comunicar, ver, ouvir e sentir tudo o que seu familiar estiver sentindo em qualquer lugar desde que estajam no mesmo plano.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Comunicação"
+      ],
+      "Skill Prerequisite": "Comunicação (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Comunicação",
+      "Skill Position": "(26,6)",
+      "Skill Position Exact": {
+        "x": 3065,
+        "y": 648
+      },
+      "Skill Level": 1,
+      "Skill Description": "Pode se comunicar, ver, ouvir e sentir tudo o que seu familiar estiver sentindo além do tempo ou espaço. Além disso seu familiar pode traduzir qualquer idioma.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Comunicação (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Montaria",
+      "Skill Position": "(23,13)",
+      "Skill Position Exact": {
+        "x": 2705,
+        "y": 1488
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar serve como uma montaria comum podendo andar somente em solo. E não podendo carregar mais pessoas.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Montaria "
+      ],
+      "Skill Prerequisite": "Adaptação (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Montaria ",
+      "Skill Position": "(24,14)",
+      "Skill Position Exact": {
+        "x": 2825,
+        "y": 1608
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar serve como uma montaria comum podendo andar somente em solo. Pode carregar até 4 pessoas.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Montaria"
+      ],
+      "Skill Prerequisite": "Montaria (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Possessão",
+      "Skill Position": "(19,13)",
+      "Skill Position Exact": {
+        "x": 2225,
+        "y": 1488
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar controla a possessão, podendo se separar ou se juntar com o corpo do mestre quando quiser.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Possessão"
+      ],
+      "Skill Prerequisite": "Possessão (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Possessão",
+      "Skill Position": "(18,14)",
+      "Skill Position Exact": {
+        "x": 2105,
+        "y": 1608
+      },
+      "Skill Level": 1,
+      "Skill Description": "Enquanto você e seu familiar estiverem com a possessão ativa, você é capaz de ver a quantidade de vida de todos ao seu redor.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [
+        "Possessão "
+      ],
+      "Skill Prerequisite": "Possessão (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Possessão ",
+      "Skill Position": "(17,15)",
+      "Skill Position Exact": {
+        "x": 1985,
+        "y": 1728
+      },
+      "Skill Level": 1,
+      "Skill Description": "Enquanto você e seu familiar estiverem com a possessão ativa, você é capaz levitar desde que esteja fora de combate.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Possessão (1)",
+      "Skill Resources": []
+    },
+    {
+      "Skill Name": "Montaria",
+      "Skill Position": "(25,15)",
+      "Skill Position Exact": {
+        "x": 2945,
+        "y": 1728
+      },
+      "Skill Level": 1,
+      "Skill Description": "Seu familiar serve como uma montaria especial, que pode se mover na agua ou voar pelo ceu.",
+      "Skill Max Points": 1,
+      "Skill Current Points": 0,
+      "Skill Image": "/gray-spear.png",
+      "Skill Dependencies": [],
+      "Skill Prerequisite": "Montaria  (1)",
+      "Skill Resources": []
+    }
+  ],
+  "Class Name": " ",
+  "FullData": {
+    "hideLockedSkills": 0,
+    "totalStats": {},
+    "showInfo": false,
+    "showStatsSummary": false,
+    "config": {
+      "paths": {
+        "assets": "/src/app/assets",
+        "config": "/src/app/config",
+        "images": {
+          "skills": "/img/skill",
+          "backgrounds": "/img/background",
+          "default": "/img/skill/axe-hammer-grey.png"
+        }
+      },
+      "grid": {
+        "spacing": 120,
+        "startX": 100,
+        "startY": 100
+      },
+      "skill": {
+        "size": 100,
+        "offset": 30
+      },
+      "connection": {
+        "height": 2
+      },
+      "skillImages": [
+        "/axe-hammer-grey.png",
+        "/fire-orb.png",
+        "/fire-rock.png",
+        "/flaming-spear.png",
+        "/flaming-staff.png",
+        "/golden-arrow.png",
+        "/gray-spear.png",
+        "/ornate-spear.png",
+        "/skull-blue.png",
+        "/small-trident.png",
+        "/spectral-dagger.png",
+        "/water-sword.png"
+      ]
+    },
+    "skills": [
+      {
+        "id": 2,
+        "name": "Dano Magico",
+        "x": 1266,
+        "y": -1992,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 1d10+1 de dano magico",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/fire-rock.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "3",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 4,
+        "name": "Dano Magico",
+        "x": 1266,
+        "y": -1752,
+        "showActions": false,
+        "level": 2,
+        "description": "Aplica 1d8+1 de dano magico, podendo escolher entre ataque em área ou alvo único (Área 3x3).",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/fire-rock.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "2",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": "",
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 5,
+        "name": "Aparo",
+        "x": 2345,
+        "y": -1512,
+        "showActions": false,
+        "level": 1,
+        "description": "Aparo simples\nPode tentar aparar um ataque\nCooldown: 2 turnos",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/skull-blue.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 6,
+        "name": "Dano Magico",
+        "x": 1266,
+        "y": -1512,
+        "showActions": false,
+        "level": 1,
+        "description": "Aplica 1d6+1 de dano magico",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/fire-rock.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 0,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 7,
+        "name": "Tank",
+        "x": 2466,
+        "y": -1272,
+        "showActions": false,
+        "description": "Seu familiar recebe +3 de defesa a qualquer dano",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/skull-blue.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 8,
+        "name": "Ataque",
+        "x": 1505,
+        "y": -1272,
+        "showActions": false,
+        "description": "Seu familiar agora pode realizar um ataque por turno (dano 1d4)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/axe-hammer-grey.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#ffffff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 0,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 13,
+        "name": "Suporte",
+        "x": 3426,
+        "y": -1272,
+        "showActions": false,
+        "description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 1d4)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/golden-arrow.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 20,
+        "name": "Ataque a Distancia",
+        "x": 1746,
+        "y": -1992,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 1d10+1 de dano fisico, com +3 de penetração",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-spear.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "3",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 21,
+        "name": "Ataque a Distancia",
+        "x": 1746,
+        "y": -1752,
+        "showActions": false,
+        "level": 2,
+        "description": "Aplica 1d8+1 de dano fisico, com +3 de penetração",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-spear.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "2",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 22,
+        "name": "Ataque a Distancia",
+        "x": 1746,
+        "y": -1512,
+        "showActions": false,
+        "level": 1,
+        "description": "Aplica 1d6+1 de dano fisico, com +2 de penetração",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-spear.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 24,
+        "name": "Ataque Corpo a corpo",
+        "x": 1506,
+        "y": -1992,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 1d10+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/axe-hammer-grey.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "3",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 25,
+        "name": "Ataque Corpo a corpo",
+        "x": 1506,
+        "y": -1752,
+        "showActions": false,
+        "level": 2,
+        "description": "Aplica 1d8+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/axe-hammer-grey.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "2",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 26,
+        "name": "Ataque Corpo a corpo",
+        "x": 1506,
+        "y": -1512,
+        "showActions": false,
+        "level": 1,
+        "description": "Aplica 1d6+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/axe-hammer-grey.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 37,
+        "x": 2586,
+        "y": -1512,
+        "name": "Provocar",
+        "showActions": false,
+        "level": 1,
+        "showTooltip": false,
+        "description": "Desbloqueia a habilidade Provocar:\n\nPode tentar provocar um alvo\nDificuldade: (11 + NIvel do familiar) - (Força de vontade do alvo/2) \nCooldown: 2 turnos",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "/img/skill/fire-orb.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#ffffff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 44,
+        "name": "Dano Magico ",
+        "x": 1266,
+        "y": -2232,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 2d6+1 de dano magico",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/fire-rock.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "4",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 45,
+        "name": "Ataque a Distancia ",
+        "x": 1746,
+        "y": -2232,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 2d6+1 de dano fisico, com +3 de penetração",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-spear.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "4",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 46,
+        "name": "Ataque Corpo a corpo ",
+        "x": 1506,
+        "y": -2232,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 2d6+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/axe-hammer-grey.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "4",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 47,
+        "name": "Dano Magico  ",
+        "x": 1266,
+        "y": -2472,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 2d8+1 de dano magico",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/fire-rock.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "5",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 48,
+        "name": "Ataque a Distancia  ",
+        "x": 1746,
+        "y": -2472,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 2d8+1 de dano fisico, com +3 de penetração",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-spear.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "5",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 49,
+        "name": "Ataque Corpo a corpo  ",
+        "x": 1506,
+        "y": -2472,
+        "showActions": false,
+        "level": 3,
+        "description": "Aplica 2d8+1 de dano fisico com 10% de vampirismo (a vida vai para o familiar ou para o mestre)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/axe-hammer-grey.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "5",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 53,
+        "x": 2465,
+        "y": -552,
+        "name": "Árvore de habilidades ativas",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar começa daqui com apenas 10 pontos de vida.",
+        "maxPoints": 0,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 0,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 58,
+        "x": 1145,
+        "y": -1392,
+        "name": "Ataque sincronizado",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Enquanto o seu familiar estiver vivo, pode escolher usar seus ataques em sincronia. Aplicando o dano do familiar ao seu dano final.\nGasta a ação do familiar",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "/img/skill/water-sword.png",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 59,
+        "x": 2586,
+        "y": -2232,
+        "name": "Provocar Espinhoso",
+        "showActions": false,
+        "level": 1,
+        "showTooltip": false,
+        "description": "Sempre que um alvo provocado, realizar um ataque no familiar, o alvo que o atacou recebe 50% do dano de volta.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "/img/skill/fire-orb.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#ffffff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 60,
+        "x": 2586,
+        "y": -1752,
+        "name": "Provocar em Área",
+        "showActions": false,
+        "level": 1,
+        "showTooltip": false,
+        "description": "Desbloqueia a habilidade Provocar em Área:\n\nPode tentar provocar varios alvos\nDificuldade: (9 + NIvel do familiar) - (Força de vontade do alvo/2) \nCooldown: 3 turnos",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "/img/skill/fire-orb.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#ffffff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 61,
+        "x": 2586,
+        "y": -1992,
+        "name": "Provocar Superior",
+        "showActions": false,
+        "level": 1,
+        "showTooltip": false,
+        "description": "Melhoria da habilidade Provocar:\n\nFaz com que um alvo tenha que rolar novamente o teste, tendo assim uma segunda tentativa de provocalo.\nCooldown: 3 turnos",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "/img/skill/fire-orb.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#ffffff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 62,
+        "x": 2586,
+        "y": -2472,
+        "name": "Provocar Supremo",
+        "showActions": false,
+        "level": 1,
+        "showTooltip": false,
+        "description": "Todo dano que um inimigo causar em um familiar, tera 20% convertido em vida para um aliado da sua escolha.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "/img/skill/fire-orb.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#ffffff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 65,
+        "name": "Aparo e Contra ataque",
+        "x": 2345,
+        "y": -1992,
+        "showActions": false,
+        "level": 1,
+        "description": "Seu aparo agora libera um contra ataque\nPode tentar aparar um ataque, Caso tenha sucesso no aparo, aplica 1d6+1 em quem realizou o ataque.\nCooldown: 1 turno",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/skull-blue.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 66,
+        "name": "Aparo e Contra atque Melhorado",
+        "x": 2345,
+        "y": -2232,
+        "showActions": false,
+        "level": 1,
+        "description": "Passa a ter 1 aparo por turno\nDano do aparo bem sucedido 1d8+1",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/skull-blue.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 68,
+        "name": "Aparo Superior",
+        "x": 2345,
+        "y": -1752,
+        "showActions": false,
+        "level": 1,
+        "description": "Aparo simples\nPode tentar aparar um ataque\nCooldown: 1 turno",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/skull-blue.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 69,
+        "name": "Aparo Contra falhas",
+        "x": 2345,
+        "y": -2472,
+        "showActions": false,
+        "level": 1,
+        "description": "Mesmo que falhe ao tentar aparar, aplica no aliado que ira receber o ataque +2 de redução de dano.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/skull-blue.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 74,
+        "name": "Cura ",
+        "x": 3546,
+        "y": -1512,
+        "showActions": false,
+        "description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 1d8+1)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/golden-arrow.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 75,
+        "name": "Cura ",
+        "x": 3546,
+        "y": -1752,
+        "showActions": false,
+        "description": "Sua cura agora remove status negativos de sangramento e envenenamento",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/golden-arrow.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 76,
+        "name": "Cura",
+        "x": 3546,
+        "y": -1992,
+        "showActions": false,
+        "description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 1d10+1)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/golden-arrow.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 77,
+        "name": "Cura",
+        "x": 3546,
+        "y": -2232,
+        "showActions": false,
+        "description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 2d6+1)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/golden-arrow.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 78,
+        "name": "Cura",
+        "x": 3546,
+        "y": -2472,
+        "showActions": false,
+        "description": "Seu familiar pode usar a sua ação para curar uma vez por turno (cura 2d8+1)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/golden-arrow.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 79,
+        "name": "Regeneração",
+        "x": 3306,
+        "y": -1512,
+        "showActions": false,
+        "description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nRegeneração: +2 de regen de vida.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-staff.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 84,
+        "name": "Reflexos sobre-humanos",
+        "x": 3306,
+        "y": -1752,
+        "showActions": false,
+        "description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nReflexos: +2 de AC e CA.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-staff.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 85,
+        "name": "Ataque sobre-humano",
+        "x": 3306,
+        "y": -1992,
+        "showActions": false,
+        "description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nAtaque: +(1d4+1) de dano.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-staff.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 86,
+        "name": "Aprimoramento",
+        "x": 3306,
+        "y": -2232,
+        "showActions": false,
+        "description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nAprimoramento: +2 de AC e CA e + 1 de regen de vida.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-staff.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 88,
+        "name": "Força interior",
+        "x": 3306,
+        "y": -2472,
+        "showActions": false,
+        "description": "Pode escolher um aliado e passar todos os seus buffs (cumulativos).\n\nForça interior: +2 de redução de dano e 10% de vampirismo.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "image": "/img/skill/flaming-staff.png",
+        "shouldAnimate": true,
+        "resources": [
+          {
+            "name": "Custo",
+            "value": "1",
+            "color": "#fff"
+          }
+        ],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": [],
+        "showTooltip": false,
+        "requiredPoints": null
+      },
+      {
+        "id": 90,
+        "x": 2465,
+        "y": 1248,
+        "name": "Árvore de habilidades passivas",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar começa daqui com apenas: 1 de (AC, CA e Deslocamento)",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 91,
+        "x": 2345,
+        "y": 1128,
+        "name": "Perito",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 pericia para o familiar",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 92,
+        "x": 2465,
+        "y": 1008,
+        "name": "Acerto",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de AC",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 93,
+        "x": 2585,
+        "y": 1128,
+        "name": "Comunicação",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar pode falar comum e mais um idioma de sua escolha.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 94,
+        "x": 2705,
+        "y": 1248,
+        "name": "Esquiva",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de CA",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 95,
+        "x": 2585,
+        "y": 1368,
+        "name": "Adaptação",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar pode se adaptar em mais de um ambiente, podendo voar e respirar debaixo dagua.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 96,
+        "x": 2465,
+        "y": 1488,
+        "name": "Deslocamento",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de deslocamento",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 97,
+        "x": 2345,
+        "y": 1368,
+        "name": "Possessão",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar e você dividem o mesmo corpo\n\nO familiar não morre e não tem mais: [pontos de vida, CA, AC, deslocamento].\n\nO mestre do familiar não aproveita seus status passivos mas pode usar todas as habilidades que o familiar tiver da (Árvore de habilidades ativas) usando a ação do familiar.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 98,
+        "x": 2225,
+        "y": 1248,
+        "name": "Vida",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+5 pontos de vida",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 99,
+        "x": 2465,
+        "y": 768,
+        "name": "Acerto",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de AC",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 100,
+        "x": 2465,
+        "y": 528,
+        "name": "Acerto",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de AC",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 101,
+        "x": 2225,
+        "y": 1008,
+        "name": "Perito",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 pericia para o familiar",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 102,
+        "x": 2105,
+        "y": 888,
+        "name": "Perito",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 pericia para o familiar",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 104,
+        "x": 2465,
+        "y": 288,
+        "name": "Acerto",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de AC",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 105,
+        "x": 2465,
+        "y": 48,
+        "name": "Acerto",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+3 de AC",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 106,
+        "x": 1985,
+        "y": 768,
+        "name": "Perito",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 pericia para o familiar",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 107,
+        "x": 1865,
+        "y": 648,
+        "name": "Perito",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 pericia para o familiar",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 108,
+        "x": 2465,
+        "y": 1728,
+        "name": "Deslocamento",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de deslocamento",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 109,
+        "x": 2465,
+        "y": 1968,
+        "name": "Deslocamento",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de deslocamento",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 110,
+        "x": 2465,
+        "y": 2208,
+        "name": "Deslocamento",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de deslocamento",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 111,
+        "x": 2465,
+        "y": 2448,
+        "name": "Deslocamento",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Pode teleportar até a distancia maxima usando movimentação",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 112,
+        "x": 2945,
+        "y": 1248,
+        "name": "Esquiva",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de CA",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 113,
+        "x": 3185,
+        "y": 1248,
+        "name": "Esquiva",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de CA",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 114,
+        "x": 3425,
+        "y": 1248,
+        "name": "Esquiva",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+1 de CA",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 115,
+        "x": 3665,
+        "y": 1248,
+        "name": "Esquiva",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+3 de CA",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 116,
+        "x": 1985,
+        "y": 1248,
+        "name": "Vida",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+5 pontos de vida",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 117,
+        "x": 1745,
+        "y": 1248,
+        "name": "Vida",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+5 pontos de vida",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 118,
+        "x": 1505,
+        "y": 1248,
+        "name": "Vida",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+5 pontos de vida",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 119,
+        "x": 1265,
+        "y": 1248,
+        "name": "Vida ",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "+10 de vida",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 122,
+        "x": 2705,
+        "y": 1008,
+        "name": "Comunicação",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Pode se comunicar com seu familiar mentalmente até 20 metros",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 123,
+        "x": 2825,
+        "y": 888,
+        "name": "Comunicação",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Pode se comunicar, ver, ouvir e sentir tudo o que seu familiar estiver sentindo até 50 metros",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 124,
+        "x": 2945,
+        "y": 768,
+        "name": "Comunicação",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Pode se comunicar, ver, ouvir e sentir tudo o que seu familiar estiver sentindo em qualquer lugar desde que estajam no mesmo plano.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 125,
+        "x": 3065,
+        "y": 648,
+        "name": "Comunicação",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Pode se comunicar, ver, ouvir e sentir tudo o que seu familiar estiver sentindo além do tempo ou espaço. Além disso seu familiar pode traduzir qualquer idioma.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 126,
+        "x": 2705,
+        "y": 1488,
+        "name": "Montaria",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar serve como uma montaria comum podendo andar somente em solo. E não podendo carregar mais pessoas.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 128,
+        "x": 2825,
+        "y": 1608,
+        "name": "Montaria ",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar serve como uma montaria comum podendo andar somente em solo. Pode carregar até 4 pessoas.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 129,
+        "x": 2225,
+        "y": 1488,
+        "name": "Possessão",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar controla a possessão, podendo se separar ou se juntar com o corpo do mestre quando quiser.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 130,
+        "x": 2105,
+        "y": 1608,
+        "name": "Possessão",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Enquanto você e seu familiar estiverem com a possessão ativa, você é capaz de ver a quantidade de vida de todos ao seu redor.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 131,
+        "x": 1985,
+        "y": 1728,
+        "name": "Possessão ",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Enquanto você e seu familiar estiverem com a possessão ativa, você é capaz levitar desde que esteja fora de combate.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      },
+      {
+        "id": 133,
+        "x": 2945,
+        "y": 1728,
+        "name": "Montaria",
+        "showActions": false,
+        "showTooltip": false,
+        "description": "Seu familiar serve como uma montaria especial, que pode se mover na agua ou voar pelo ceu.",
+        "maxPoints": 1,
+        "currentPoints": 0,
+        "requiredPoints": 0,
+        "image": "",
+        "shouldAnimate": true,
+        "resources": [],
+        "size": 60,
+        "borderType": "solid",
+        "shape": "round",
+        "cost": 1,
+        "prerequisiteModeOverride": "global",
+        "exclusiveSkillIds": []
+      }
+    ],
+    "connections": [
+      {
+        "id": "8-26",
+        "from": 8,
+        "to": 26,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2007,
+          "y": 1374.5
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "8-6",
+        "from": 8,
+        "to": 6,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1939,
+          "y": 1380
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "8-22",
+        "from": 8,
+        "to": 22,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2059,
+          "y": 1380
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "6-4",
+        "from": 6,
+        "to": 4,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1879,
+          "y": 1200
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "4-2",
+        "from": 4,
+        "to": 2,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1879,
+          "y": 1080
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "26-25",
+        "from": 26,
+        "to": 25,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1998,
+          "y": 1199
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "25-24",
+        "from": 25,
+        "to": 24,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1998,
+          "y": 1079
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "22-21",
+        "from": 22,
+        "to": 21,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2118,
+          "y": 1199
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "21-20",
+        "from": 21,
+        "to": 20,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2118,
+          "y": 1079
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "7-5",
+        "from": 7,
+        "to": 5,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2717,
+          "y": 1379
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "7-37",
+        "from": 7,
+        "to": 37,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2777,
+          "y": 1379
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "2-44",
+        "from": 2,
+        "to": 44,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1806,
+          "y": 1183
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "24-46",
+        "from": 24,
+        "to": 46,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2046,
+          "y": 1183
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "20-45",
+        "from": 20,
+        "to": 45,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2286,
+          "y": 1183
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "44-47",
+        "from": 44,
+        "to": 47,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1806,
+          "y": 943
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "46-49",
+        "from": 46,
+        "to": 49,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2046,
+          "y": 943
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "45-48",
+        "from": 45,
+        "to": 48,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2286,
+          "y": 943
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "53-8",
+        "from": 53,
+        "to": 8,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2197.5,
+          "y": 1513.5
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "53-7",
+        "from": 53,
+        "to": 7,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2677.5,
+          "y": 1513.5
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "53-13",
+        "from": 53,
+        "to": 13,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 3157.5,
+          "y": 1513.5
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "8-58",
+        "from": 8,
+        "to": 58,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2402,
+          "y": 1372
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "37-60",
+        "from": 37,
+        "to": 60,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2337,
+          "y": 1291
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "60-61",
+        "from": 60,
+        "to": 61,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2337,
+          "y": 1051
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "61-59",
+        "from": 61,
+        "to": 59,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2423,
+          "y": 1389
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "59-62",
+        "from": 59,
+        "to": 62,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2423,
+          "y": 1149
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "5-68",
+        "from": 5,
+        "to": 68,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2494,
+          "y": 1354
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "68-65",
+        "from": 68,
+        "to": 65,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2494,
+          "y": 1114
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "65-66",
+        "from": 65,
+        "to": 66,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2494,
+          "y": 874
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "66-69",
+        "from": 66,
+        "to": 69,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2561,
+          "y": 1332
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "13-74",
+        "from": 13,
+        "to": 74,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2800,
+          "y": 1778
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "13-79",
+        "from": 13,
+        "to": 79,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2680,
+          "y": 1778
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "74-75",
+        "from": 74,
+        "to": 75,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2860,
+          "y": 1538
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "75-76",
+        "from": 75,
+        "to": 76,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2860,
+          "y": 1298
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "76-77",
+        "from": 76,
+        "to": 77,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2860,
+          "y": 1058
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "77-78",
+        "from": 77,
+        "to": 78,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2860,
+          "y": 818
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "79-84",
+        "from": 79,
+        "to": 84,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2497,
+          "y": 1669
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "84-85",
+        "from": 84,
+        "to": 85,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2497,
+          "y": 1429
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "85-86",
+        "from": 85,
+        "to": 86,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2497,
+          "y": 1189
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "86-88",
+        "from": 86,
+        "to": 88,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2497,
+          "y": 949
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-94",
+        "from": 90,
+        "to": 94,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2633,
+          "y": 1218
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-93",
+        "from": 90,
+        "to": 93,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2573,
+          "y": 1158
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-92",
+        "from": 90,
+        "to": 92,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2513,
+          "y": 1098
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-91",
+        "from": 90,
+        "to": 91,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2453,
+          "y": 1158
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-98",
+        "from": 90,
+        "to": 98,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2393,
+          "y": 1218
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-95",
+        "from": 90,
+        "to": 95,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2573,
+          "y": 1278
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-97",
+        "from": 90,
+        "to": 97,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2453,
+          "y": 1278
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-96",
+        "from": 90,
+        "to": 96,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2513,
+          "y": 1338
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "90-92",
+        "from": 90,
+        "to": 92,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2514,
+          "y": 1272
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "92-99",
+        "from": 92,
+        "to": 99,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2435,
+          "y": 1731
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "99-100",
+        "from": 99,
+        "to": 100,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2435,
+          "y": 1491
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "100-104",
+        "from": 100,
+        "to": 104,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2435,
+          "y": 1251
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "104-105",
+        "from": 104,
+        "to": 105,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2435,
+          "y": 1011
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "91-101",
+        "from": 91,
+        "to": 101,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2484,
+          "y": 1455
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "101-102",
+        "from": 101,
+        "to": 102,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2364,
+          "y": 1335
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "102-106",
+        "from": 102,
+        "to": 106,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2244,
+          "y": 1215
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "106-107",
+        "from": 106,
+        "to": 107,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2124,
+          "y": 1095
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "96-108",
+        "from": 96,
+        "to": 108,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2667,
+          "y": 1164
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "108-109",
+        "from": 108,
+        "to": 109,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2667,
+          "y": 1404
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "109-110",
+        "from": 109,
+        "to": 110,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2667,
+          "y": 1644
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "110-111",
+        "from": 110,
+        "to": 111,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2667,
+          "y": 1884
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "94-112",
+        "from": 94,
+        "to": 112,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2899,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "112-113",
+        "from": 112,
+        "to": 113,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 3139,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "113-114",
+        "from": 113,
+        "to": 114,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 3379,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "114-115",
+        "from": 114,
+        "to": 115,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 3619,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "98-116",
+        "from": 98,
+        "to": 116,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2179,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "116-117",
+        "from": 116,
+        "to": 117,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1939,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "117-118",
+        "from": 117,
+        "to": 118,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1699,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "118-119",
+        "from": 118,
+        "to": 119,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 1459,
+          "y": 1283
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "93-122",
+        "from": 93,
+        "to": 122,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2334,
+          "y": 1236
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "122-123",
+        "from": 122,
+        "to": 123,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2454,
+          "y": 1116
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "123-124",
+        "from": 123,
+        "to": 124,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2574,
+          "y": 996
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "124-125",
+        "from": 124,
+        "to": 125,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2694,
+          "y": 876
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "95-126",
+        "from": 95,
+        "to": 126,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2772,
+          "y": 1406
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "97-129",
+        "from": 97,
+        "to": 129,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2412,
+          "y": 1406
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      },
+      {
+        "id": "129-130",
+        "from": 129,
+        "to": 130,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2292,
+          "y": 1526
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "126-128",
+        "from": 126,
+        "to": 128,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2892,
+          "y": 1526
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "128-133",
+        "from": 128,
+        "to": 133,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2707,
+          "y": 1438
+        },
+        "mutuallyExclusive": false,
+        "dotted": false,
+        "isHovered": false
+      },
+      {
+        "id": "130-131",
+        "from": 130,
+        "to": 131,
+        "hasControlPoint": false,
+        "controlPoint": {
+          "x": 2463,
+          "y": 1453
+        },
+        "mutuallyExclusive": false,
+        "dotted": false
+      }
+    ],
+    "connectingFrom": null,
+    "skillIdCounter": 135,
+    "draggedSkill": null,
+    "dragOffset": {
+      "x": 13,
+      "y": -15.625
+    },
+    "draggedElement": {},
+    "isDragging": false,
+    "isLinking": false,
+    "hoveredSkill": null,
+    "defaultMaxPoints": 5,
+    "dragStartTime": 1764129149511,
+    "dragStartPos": {
+      "x": 3300,
+      "y": 1575.375
+    },
+    "dragThreshold": 5,
+    "showOptions": false,
+    "isPanning": false,
+    "panStart": {
+      "x": 2175,
+      "y": 3025
+    },
+    "treePosition": {
+      "x": -265,
+      "y": -2802
+    },
+    "scale": 0.5,
+    "minScale": 0.5,
+    "maxScale": 2,
+    "scaleStep": 0.1,
+    "isLoaded": false,
+    "touchStartX": null,
+    "touchStartY": null,
+    "lastTouchDistance": null,
+    "touchTimeout": null,
+    "doubleTapDelay": 300,
+    "lastTap": 0,
+    "editingSkill": null,
+    "oldSkills": null,
+    "oldBackgroundLink": null,
+    "oldName": null,
+    "currentBackgroundLink": "/img/background/grass-ancient.jpg",
+    "currentName": " ",
+    "currentClassDescription": null,
+    "inputText": "",
+    "isLoading": false,
+    "historyIndex": 49,
+    "maxHistorySize": 50,
+    "showImageSelector": false,
+    "selectedImage": "/gray-spear.png",
+    "availableImages": [
+      "/axe-hammer-grey.png",
+      "/fire-orb.png",
+      "/fire-rock.png",
+      "/flaming-spear.png",
+      "/flaming-staff.png",
+      "/golden-arrow.png",
+      "/gray-spear.png",
+      "/ornate-spear.png",
+      "/skull-blue.png",
+      "/small-trident.png",
+      "/spectral-dagger.png",
+      "/water-sword.png"
+    ],
+    "skillShape": "round",
+    "customImages": [],
+    "gridSnapEnabled": true,
+    "snapThreshold": 8,
+    "mode": "edit",
+    "overlayColor": "#000000",
+    "overlayOpacity": 75,
+    "showArrows": true,
+    "showGlobalGrid": true,
+    "gridOpacity": 12,
+    "gridSize": 120,
+    "maxPoints": 20,
+    "selectionBox": null,
+    "initialClick": {
+      "x": 3316.25,
+      "y": 1624.125
+    },
+    "showLoadModal": false,
+    "initialPositions": null,
+    "prerequisiteMode": "none",
+    "showGenerateControls": false,
+    "lastPanTime": 0,
+    "treeEl": {},
+    "imageUrl": "",
+    "defaultSkillImage": "/img/skill/axe-hammer-grey.png",
+    "defaultMaxSkillPoints": 5,
+    "selectingDefaultImage": false,
+    "showSkillNames": false,
+    "skillSizePresets": {
+      "small": 30,
+      "medium": 60,
+      "large": 110
+    },
+    "showRequirementsTooltip": true,
+    "skillNamesSize": 12,
+    "selectedConnection": null,
+    "editingConnection": false,
+    "controlPoints": [],
+    "addSkillOnClick": true,
+    "treeUnlockColor": "#ffd700",
+    "treeUnlockBoxshadow": "0 0 5px rgba(0, 0, 0, 0.5)",
+    "treeLockedColor": "#FF0000",
+    "treeLockedBoxshadow": "0 0 5px rgba(0, 0, 0, 0.5)"
+  }
+}
